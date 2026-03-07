@@ -123,19 +123,29 @@ The webcam will start and objects will be detected in real time.
 
 YOLOv3 is trained on the **COCO dataset** and detects **80 classes**, such as:
 
-- Person
-- Dog
-- Cat
-- Car
-- Bicycle
-- Bottle
-- Chair
-- Laptop
-- Mobile Phone
-- Backpack
-- Traffic Light
-- And many more
+- 👤 Person
 
+- 🚗 Car
+
+- 🚲 Bicycle
+
+- 🐶 Dog
+
+- 🐱 Cat
+
+- 🍾 Bottle
+
+- 💻 Laptop
+
+- 📱 Mobile Phone
+
+- 🎒 Backpack
+
+- 🚦 Traffic Light
+
+- 🪑 Chair
+
+and many more...
 ---
 
 ## Requirements
