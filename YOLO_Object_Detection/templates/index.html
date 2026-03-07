@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>YOLO Object Detection</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+text-align:center;
+background:rgba(0,0,0,0.5);
+padding:40px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.feed-title{
+font-size:26px;
+font-weight:bold;
+margin-top:25px;
+color:#00ffcc;
+letter-spacing:2px;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:8px;
+background:#00c853;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#00e676;
+}
+
+.video-box{
+margin-top:20px;
+border:4px solid #00ffcc;
+border-radius:12px;
+overflow:hidden;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Real Time Object Detection</h1>
+
+<p>YOLOv3 + Flask + OpenCV</p>
+
+<form action="/video_feed">
+<button type="submit">Start Camera Detection</button>
+</form>
+
+<div class="feed-title">
+LIVE VIDEO FEED
+</div>
+
+<div class="video-box">
+<img src="{{ url_for('video_feed') }}" width="640">
+</div>
+
+</div>
+
+</body>
+</html>
