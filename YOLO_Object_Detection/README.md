@@ -65,7 +65,15 @@ Download YOLO weights from:
 
 https://pjreddie.com/media/files/yolov3.weights
 
-Place the file inside the project folder.
+Download YOLO configuration file from:
+
+https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+
+Download COCO Dataset file from:
+
+https://github.com/pjreddie/darknet/blob/master/data/coco.names
+
+Place all the three files inside this project folder.
 
 ---
 
@@ -93,23 +101,14 @@ pip install -r requirements.txt
 
 ---
 
-### 5. Download YOLO Weights
 
-Download the file:
-
-https://pjreddie.com/media/files/yolov3.weights
-
-Place **yolov3.weights** inside the project root folder.
-
----
-
-### 6. Run the Project
+### 5. Run the Project
 
 python app.py
 
 ---
 
-### 7. Open Browser
+### 6. Open Browser
 
 http://127.0.0.1:5000
 
@@ -145,7 +144,8 @@ YOLOv3 is trained on the **COCO dataset** and detects **80 classes**, such as:
 
 - 🪑 Chair
 
-and many more...
+and many more .....
+
 ---
 
 ## Requirements
