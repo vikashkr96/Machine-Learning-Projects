@@ -39,6 +39,8 @@ flask_object_detection/
 
 ├── yolov3.cfg
 
+├── yolov3.weights
+
 ├── coco.names
 
 ├── .gitignore
