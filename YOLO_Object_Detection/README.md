@@ -59,7 +59,7 @@ flask_object_detection/
 
 ### 1. Clone the repository
 
-git clone https://github.com/yourusername/flask-object-detection.git
+git clone https://github.com/vikashkr96/Machine-Learning-Projects.git
 
 **Note:**
 
