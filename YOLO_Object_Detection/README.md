@@ -5,6 +5,14 @@ This project opens the webcam and detects objects in real time using a pretraine
 
 ---
 
+## 🎥 Demo
+
+![YOLO Object Detection Demo](demo.gif)
+
+▶ **Watch Full Video:** [https://youtube.com/YOUR_VIDEO_LINK](https://youtu.be/7CdXu27JjUU?si=C6O4ffyBLFuzVkcL)
+
+---
+
 ## Features
 
 - Real-time object detection
