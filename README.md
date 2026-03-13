@@ -11,6 +11,7 @@ The purpose of this repository is to practice, explore, and implement different 
 - OpenCV
 - Scikit-learn
 - TensorFlow / Keras
+And many more .........
 
 ## 📂 Projects Included
 Some projects in this repository include:
