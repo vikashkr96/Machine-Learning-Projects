@@ -32,7 +32,7 @@ This project builds an intelligent system that takes **patient symptoms as input
 * 🌳 Decision Tree
 * 🌲 Random Forest
 * 📊 Naive Bayes
-* 🔵 Support Vector Machine (SVM)
+* 🔵 Support Vector Machine 
 * 🚀 Gradient Boosting
 
 ---
